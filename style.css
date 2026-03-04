@@ -138,3 +138,20 @@ main {
     filter: brightness(1.1);
     transform: translateY(-2px);
 }
+
+#comments {
+    width: 100%;
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: var(--card-bg);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+}
+
+#comments h2 {
+    text-align: center;
+    color: var(--accent-color);
+    margin-bottom: 2rem;
+}
